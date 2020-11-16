@@ -10,6 +10,6 @@ This FPGA is designed to support following three functionalities
 
 Here is the design of FPGA -
 
-![FPGA Design](/FPGA/FPGA_design.png)
+![FPGA Design](https://github.com/tanmayaeron/FPGA/blob/main/FPGA_design.png)
 
 Design will be explained later
