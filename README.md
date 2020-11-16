@@ -8,3 +8,8 @@ This FPGA is designed to support following three functionalities
 3. 4 bit synchronous counter (two bit input is ‘c’ and ‘d’. If ‘c’ is ‘1’ then counter increments, if ‘d’ is 1 counter decrement.
    Both c and d can not be 1 at the same time. If    both are ‘0’ flip-flops holds their values)
 
+Here is the design of FPGA -
+
+![FPGA Design](/FPGA/FPGA_design.png)
+
+Design will be explained later
