@@ -28,4 +28,4 @@ encoder - in = 9'b+all 8 inputs + "0"
 In linux system, for adder do the following - \
 iverilog FPGA.v testbench_adder.v \
 ./a.out \
-Compile corresponding testbench for other two circuits.
+Compile using corresponding testbench for other two circuits.
