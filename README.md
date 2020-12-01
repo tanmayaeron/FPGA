@@ -12,4 +12,20 @@ Here is the design of FPGA -
 
 ![FPGA Design](https://github.com/tanmayaeron/FPGA/blob/main/FPGA_design.png)
 
-Design will be explained later
+## Dependencies
+This project uses [Iverilog by steveicarus](https://github.com/steveicarus/iverilog). 
+
+## Design
+first input of FPGA board is connected to first input of first and last switch box and therefore I1 is written there. At output ports, A1,A2 and so on till A20 is writen. 
+
+## Execution
+FPGA.v contain instances of logic tile and switch boxes.
+In corresponding testbench, enter input in following format - \
+adder -  in = 9'b+num1+num2+cin \
+counter - in = 9'b+c+d+"0000000" \
+encoder - in = 9'b+all 8 inputs + "0" 
+
+In linux system, for adder do the following - \
+iverilog FPGA.v testbench_adder.v \
+./a.out \
+Compile corresponding testbench for other two circuits.
